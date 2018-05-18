@@ -1,0 +1,11 @@
+﻿  main.c
+main.c(33): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+main.c(84): warning C4013: 'getch' undefined; assuming extern returning int
+main.c(36): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+main.c(83): warning C4474: 'printf' : too many arguments passed for format string
+  main.c(83): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+main.c(93): warning C4098: 'initTerminal': 'void' function returning a value
+main.c(98): warning C4098: 'initTerminal': 'void' function returning a value
+main.c(104): warning C4098: 'initTerminal': 'void' function returning a value
+main.c(193): warning C4013: '_kbhit' undefined; assuming extern returning int
