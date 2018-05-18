@@ -47,7 +47,7 @@ int main(void) {
 			printf("\x1b[10X");
 		}
 		//used variables
-		char field[ROW][KOL];							// the field
+	    char field[ROW][KOL];							// the field
 		point snake[ROW*KOL];							// the snake
 		int scoreBoard[10] = {0,0,0,0,0,0,0,0,0,0};		// the score board to use in game between read and writes
 		char names[10][10] = { 
