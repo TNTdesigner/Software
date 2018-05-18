@@ -1,0 +1,7 @@
+﻿  test.c
+test.c(35): warning C4013: 'getch' undefined; assuming extern returning int
+  Generating code
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  test.vcxproj -> C:\Users\Nico\Desktop\snake\Release\test.exe
+  test.vcxproj -> C:\Users\Nico\Desktop\snake\Release\test.pdb (Full PDB)

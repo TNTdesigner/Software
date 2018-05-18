@@ -1,0 +1,14 @@
+﻿  main.c
+main.c(37): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+main.c(145): warning C4013: 'getch' undefined; assuming extern returning int
+main.c(155): warning C4098: 'initTerminal': 'void' function returning a value
+main.c(160): warning C4098: 'initTerminal': 'void' function returning a value
+main.c(166): warning C4098: 'initTerminal': 'void' function returning a value
+main.c(256): warning C4013: '_kbhit' undefined; assuming extern returning int
+  Generating code
+  1 of 15 functions ( 6.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  snake.vcxproj -> C:\Users\Nico\Desktop\snake\Release\snake.exe
+  snake.vcxproj -> C:\Users\Nico\Desktop\snake\Release\snake.pdb (Full PDB)

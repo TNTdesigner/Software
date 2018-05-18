@@ -1,0 +1,8 @@
+﻿  main.c
+c:\users\nico\desktop\snake\snake\main.c(38): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\nico\desktop\snake\snake\main.c(141): warning C4013: 'getch' undefined; assuming extern returning int
+c:\users\nico\desktop\snake\snake\main.c(65): error C2075: 'tempname': array initialization requires a brace-enclosed initializer list
+c:\users\nico\desktop\snake\snake\main.c(151): warning C4098: 'initTerminal': 'void' function returning a value
+c:\users\nico\desktop\snake\snake\main.c(156): warning C4098: 'initTerminal': 'void' function returning a value
+c:\users\nico\desktop\snake\snake\main.c(162): warning C4098: 'initTerminal': 'void' function returning a value
+c:\users\nico\desktop\snake\snake\main.c(252): warning C4013: '_kbhit' undefined; assuming extern returning int
