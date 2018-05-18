@@ -5,12 +5,12 @@
 #define CURSOROF printf("\x1b[?25l")
 #define SCORE "score.bin"
 
-//#include <stdio.h>
-//#include <time.h>
-//#include <stdlib.h>
-//#include <Windows.h>
-//#include <wchar.h>
-//#include <string.h>
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <Windows.h>
+#include <wchar.h>
+#include <string.h>
 
 /* Forward declare a type "point" to be a struct. */
 typedef struct point point;
