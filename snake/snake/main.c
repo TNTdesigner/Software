@@ -5,12 +5,12 @@
 #define CURSOROF printf("\x1b[?25l")
 #define SCORE "score.bin"
 
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-#include <Windows.h>
-#include <wchar.h>
-#include <string.h>
+//#include <stdio.h>
+//#include <time.h>
+//#include <stdlib.h>
+//#include <Windows.h>
+//#include <wchar.h>
+//#include <string.h>
 
 /* Forward declare a type "point" to be a struct. */
 typedef struct point point;
@@ -47,7 +47,7 @@ int main(void) {
 			printf("\x1b[10X");
 		}
 		//used variables
-		char field[ROW][KOL];							// the field
+	    char field[ROW][KOL];							// the field
 		point snake[ROW*KOL];							// the snake
 		int scoreBoard[10] = {0,0,0,0,0,0,0,0,0,0};		// the score board to use in game between read and writes
 		char names[10][10] = { 
